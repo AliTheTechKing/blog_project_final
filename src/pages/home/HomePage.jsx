@@ -1,5 +1,6 @@
 import React from "react";
 
+import CTA from "./container/CTA";
 
 import MainLayout from "../../components/MainLayout";
 import Articles from "./container/Articles";
@@ -10,7 +11,10 @@ const HomePage = () => {
     <MainLayout>
       <Hero />
       <Articles />
+      <CTA />
+
     </MainLayout>
+    
   );
 };
 
