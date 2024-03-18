@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CommentsContainer from "../../components/comments/CommentsContainer";
+
 import BreadCrumbs from "../../components/BreadCrumbs";
 import MainLayout from "../../components/MainLayout";
 import { images } from "../../constants";
@@ -78,6 +80,8 @@ const ArticleDetailPage = () => {
               lectus proin.
             </p>
           </div>
+          <CommentsContainer className="mt-10" logginedUserId="a" />
+
         </article>
         <SuggestedPosts
           header="Latest Article"
